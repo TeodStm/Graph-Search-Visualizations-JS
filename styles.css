@@ -1,0 +1,111 @@
+body {
+  background-color: rgb(80,80,90);
+  /*background-color: rgb(48, 48, 60);*/
+  margin: 0;
+}
+
+.grids {
+  display: grid;
+  
+  width: 90vmin;
+  height: 60vh;
+  grid-gap: 1px;
+  margin: 0 auto;
+  padding: 2em;
+  margin-top: 100px;
+}
+
+
+.grid-items {
+  background-color: rgb(200, 200, 200);
+  text-align: center;
+  color: white;
+  font-size: 5em;
+  border: none;
+  border-radius: 3%;
+  /*animation-duration: 100s;*/
+}
+
+.grid-its:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+.wall_mode:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+.eraser_mode:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+
+.container {
+	position:relative;
+}
+
+.settings {
+	position:absolute;
+	margin-left: 15%;
+	margin-right:3em;
+	margin-top: 3em;
+}
+
+.settings button{
+	padding: 2vh;
+	border:none;
+	font-weight: bold;
+	font-size: 80%;
+	width: 14vh;
+	/*margin-bottom: 2em;*/
+	background-color: rgb(45,45,45);
+	color: white;
+	border-bottom: 2px solid black;
+}
+
+.settings button:hover{
+	cursor: pointer;
+	/*background-color: rgb(211,211,211);*/
+	background-color: rgb(100,100,100);
+	border-bottom: 2px solid rgb(51, 204, 255);
+	/*color: black;*/
+}
+
+#eraser-btn {
+	padding: 2vh;
+	border:none;
+	font-weight: bold;
+	font-size: 80%;
+	width: 14vh;
+	/*margin-bottom: 2em;*/
+	background-color: rgb(45,45,45);
+	color: white;
+	border-bottom: 2px solid black;
+}
+
+#eraser-btn:hover {
+	cursor: pointer;
+	/*background-color: rgb(211,211,211);*/
+	background-color: rgb(100,100,100);
+	border-bottom: 2px solid rgb(51, 204, 255);
+	/*color: black;*/
+}
+
+@keyframes cell{
+	from {background-color: rgb(105, 212, 245);}
+	to {background-color: rgb(4, 124, 194);}
+}
+
+@keyframes cell{
+	/*0% {background-color: rgb(105, 212, 245);}*/
+	20% {background-color: rgb(52, 201, 250);}
+	40% {background-color: rgb(20, 159, 204);}
+	60% {background-color: rgb(13, 144, 186);}
+	80% {background-color: rgb(12, 128, 166);}
+	100% {background-color: rgb(8, 108, 140);}
+	/*to {background-color: rgb(4, 124, 194);}*/
+}
+
+
